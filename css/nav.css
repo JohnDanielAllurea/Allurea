@@ -1,0 +1,239 @@
+/* Nav bar */
+body{
+  font-family: "Georgia", serif;
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  padding: 1% 1%;
+  align-items:center;
+  min-height:10vh;
+  position: fixed;
+  width: 100%;
+  top:0;
+  background-color: #FFB6C1;
+  z-index: 0;
+}
+
+.brand{
+  font-size:25px;
+}
+
+nav a{
+  color:black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Georgia, serif;
+}
+
+.navb{
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: #800000;
+  text-decoration: none;
+}
+
+.nav-links{
+  display:flex;
+  list-style: none;
+  width:40%;
+  justify-content: space-around;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size:14px;
+  font-family: sans-serif;
+}
+
+
+/*marquee*/
+.marquee {
+  margin-top: 10vh;
+  color: #fff; /* Text color */
+  background-color: #800000; /* Background color */
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+}
+
+.intro{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+  margin-top: 0;
+  text-align: center;
+  font-style: italic;
+}
+
+/* moto */
+
+.motop{
+  font-size: 20px;
+}
+/* features-section */
+#features{
+  padding: 1% 10% 1% 10%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 4% 5%;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/*why?*/
+.why{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+  margin-top: 10vh;
+}
+
+
+/* footer */
+.footers{
+  padding: 3% 2%;
+  text-align: center;
+  width: 100%;
+  background-color: #FFB6C1;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, serif;
+  /*position: absolute; /* Set position to absolute */
+  /*bottom: 30px; /* Align to the bottom of the page */
+}
+
+.footers ul {
+  display: inline-block; /* Display list items inline */
+  margin-right: 20px; /* Add spacing between list items */
+  color: black;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: Georgia, serif;
+}
+.fa{
+  color:black;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-family: Georgia, serif;
+}
+
+.fa:hover{
+  color: #800000;
+  text-decoration: none;
+}
+
+.fad{
+  color:black;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-family: Georgia, serif;
+}
+
+.copyright{
+  background-color: #FFE4E1;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.cpp{
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*about*/
+.about{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+}
+.ap{
+  font-style: italic;
+}
+
+/*T&C*/
+.tc{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+}
+.sub{
+  font-weight: 550;
+}
+
+/*privacy*/
+.privacy{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+}
+
+/*refund*/
+.refund{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+}
+
+/*return*/
+.return{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+}
+
+/*shipping*/
+.shipping{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+}
+
+/*products*/
+.products{
+  padding: 4% 4%;
+  background-color: #FFE4E1;
+}
+
+.products ul li{
+  list-style-type: none;
+}
+
+
+.note{
+  font-style: italic;
+}
+
+.pds{
+  text-align: center;
+}
+
+/*contact*/
+#ca{
+
+}
+.contact{
+  background-color: #FFE4E1;
+  padding: 4% 4%;
+}
+.form{
+  margin-left: 16%;
+  padding-left: 12%;
+}
